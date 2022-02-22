@@ -14,7 +14,7 @@ white "
  ░██ ░██       ░██ ░██       ░██ ░██          ░██         ░██    ░░██
  ░██  ░░██     ░██  ░░██     ░██  ░░██        ░██          ░██ ██ ██ "
 red "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" 
-yellow " 详细说明 https://github.com/kkkyg/vpsroot  YouTube频道：甬哥侃侃侃"       
+green " 详细说明 https://github.com/kkkyg/vpsroot  YouTube频道：甬哥侃侃侃"       
 [[ $EUID -ne 0 ]] && su='sudo' 
 lsattr /etc/passwd /etc/shadow >/dev/null 2>&1
 chattr -i /etc/passwd /etc/shadow >/dev/null 2>&1
