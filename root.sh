@@ -32,7 +32,7 @@ $su service sshd restart
 green "VPS当前用户名：root"
 green "vps当前root密码：$mima"
 else
-red "未输入相关字符，启用root账户或密码更改失败" && exit 1
+red "未输入相关字符，启用root账户或root密码更改失败" && exit 1
 fi
 else
 red "当前vps不支持root账户或无法自定义root密码" && exit 1
